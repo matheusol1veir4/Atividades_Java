@@ -1,0 +1,74 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/* 
+		 variaveis são espaços alocados na memoria que salvam uma informação(um dado)
+		 
+		 o tipo int armazena números inteiros 
+		 int são números: 1,2,3,10,150...
+		 double que são números com casas decimais 
+		 exemplo: 10.50, 25.99...
+		 char é o tipo que armazena um caractere é um tipo "literal" e a sua inicialização é 
+		 feita com aspas simples
+		 exemplos de char: c, d, a, 1, 2...
+		 string é uma classe do java utilizada para armazenar cadeias de caracteres (frases por exemplo)
+		 sua inicialização é feita com aspas duplas
+		 exemplos de string: nomes, locais...
+		 */
+		
+		int numero = 10;
+		double precoDaCamisa = 20.52;
+		String nome = "Matheus";
+		char sexo = 'M';
+		
+		int num1 = 5;
+		int num2 = 10;
+		int resultado = num1 + num2;
+		
+		System.out.println(numero);
+		System.out.println(precoDaCamisa);
+		System.out.println(nome);
+		System.out.println(sexo);
+		
+		precoDaCamisa = 50.65;
+		System.out.println(precoDaCamisa);
+		System.out.println();
+		System.out.println();
+		
+		System.out.print(nome);
+		System.out.print(sexo);
+		System.out.print(precoDaCamisa);
+		System.out.println();
+		System.out.println();
+		
+		System.out.print(nome + " " + sexo + " " + " " + precoDaCamisa);
+		System.out.println();
+		
+		System.out.print (nome + " comprou uma camisa com o valor de: " + precoDaCamisa );
+		
+		precoDaCamisa = 69.99;
+		System.out.println(precoDaCamisa);
+		
+		nome = "Matheus Oliveira";
+		System.out.println("Matheus Oliveira");
+		System.out.println();
+		
+		System.out.print(nome + " comprou uma camisa com o valor de: " + precoDaCamisa);
+		
+		System.out.println();
+		
+		System.out.println(num1 + num2);
+		System.out.println(" o resultado é: " + resultado);
+		System.out.println(" o resultado é: " + (num1 + num2));
+		
+		
+		
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,15 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int valor;
+		
+		System.out.println("Entre com o número: ");
+		valor = leia.nextInt();
+		
+	}
+
+}
