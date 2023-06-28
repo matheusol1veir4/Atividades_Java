@@ -1,7 +1,7 @@
 create database atividade_sql;
 
 use atividade_sql;
-drop table pessoas;
+#drop table pessoas;
 create table pessoas (
 nome varchar (100),
 idade int,
