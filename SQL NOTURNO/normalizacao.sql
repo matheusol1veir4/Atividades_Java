@@ -96,3 +96,18 @@ insert into telefone values (null, "061", "97134-9511", 1),
 (null, "063", "97134-8965", 4);
 
 select * from telefone;
+
+/*
+Para a tabela está na terceira forma normal
+ela precisa estar de acordo com a 1ª e 2ª forma normal
+não existir dependências transitivas
+nenhum atributo não chave não pode depender de outro atributo não chave
+*/
+
+create table produto (
+	idProduto integer primary key auto_increment,
+    nome_produto varchar (50),
+    quantidade int,
+    valor double,
+	total_estoque double
+);
