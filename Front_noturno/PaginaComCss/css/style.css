@@ -20,6 +20,7 @@
     align-items: center;
     margin-left: 15px;
 
+
 }
 
 .nav-bar .links_paginas ul{
@@ -84,7 +85,7 @@ h2 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    padding: 30% 0;
+    padding: 10% 0;
 }
 
 .colaboradores .cards img {
@@ -92,7 +93,24 @@ h2 {
     width: 100px;
 }
 
+iframe {
+    display: block;
+    margin: auto;
+    }
+
+footer {
+    padding: 20px 0;
+    margin: 10px 0 5px 0;
+    background-color: #ccc;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /*
-flex-wrap: wrap -> 
+flex-wrap: wrap --> 
 
 */
