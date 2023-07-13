@@ -1,0 +1,24 @@
+nav ul li a{
+    font-weight: bold!important;
+}
+
+nav ul li a:hover{
+    margin-top: -3px;
+    /*color: blue!important;*/
+}
+
+.card-header, .bloco-oferecemos, footer{
+    color: #FFF;
+}
+
+.oferecemos i{
+    color: blueviolet;
+}
+
+.card{
+    height: 500px;
+    margin:  auto;
+}
+.card img{
+    height: 100%;
+}
