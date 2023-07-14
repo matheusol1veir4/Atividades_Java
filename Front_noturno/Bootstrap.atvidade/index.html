@@ -12,109 +12,123 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-bottom-dark" data-bs-theme="dark"">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">barra de navegação</font></font></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lar</font></font></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Link</font></font></a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-                      Suspenso
-                    </font></font></a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Desabilitado</font></font></a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Procurar">
-                  <button class="btn btn-outline-success" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Procurar</font></font></button>
-                </form>
-              </div>
-            </div>
-          </nav>       
-    </header>
+  <header>
+       <!-- Nav-Bar inicio -->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand ">Fotoshow</a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+       <!-- Menu -->
+      <div class="menu" >
+       <ul class="nav nav-underline">
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ativo</font></font></a>
+        </li>
+        <li class="nav-item color-dark">
+          <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Link</font></font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Link</font></font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Desabilitado</font></font></a>
+        </li>
+      </ul>
+    </div>
+      <!-- End Menu -->
+    </nav>
+    <!-- End Nav-Bar --> 
+  </header>
+    <!-- Banner -->
     
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+    <svg class="bd-placeholder-img bd-placeholder-img-lg img-fluid" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Responsive image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Responsive image</text></svg>
+    
+    <!-- End Banner -->
+
+    <div class="mx-3 my-3">
+
+      <h1 class="text-center">Fotos são mais que imagens, são memórias guardadas para além do tempo</h1>
+
+    </div>
+
+    <!-- Cards -->
+    <div class="Cards d-flex my-3 justify-content-center container ">
+      <div class="card mx-3" >
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: limite de imagem" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Algum texto de exemplo rápido para criar no título do cartão e compor a maior parte do conteúdo do cartão.</font></font></p>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: primeiro slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rótulo do primeiro slide</font></font></h5>
-              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Algum conteúdo de espaço reservado representativo para o primeiro slide.</font></font></p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: primeiro slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rótulo do segundo slide</font></font></h5>
-              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Algum conteúdo de espaço reservado representativo para o segundo slide.</font></font></p>
-            </div>
-          </div>
-          <div class="carousel-item active">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: terceiro slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
-            <div class="carousel-caption d-none d-md-block">
-              <h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Etiqueta do terceiro slide</font></font></h5>
-              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Algum conteúdo de espaço reservado representativo para o terceiro slide.</font></font></p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anterior</font></font></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Próximo</font></font></span>
-        </button>
       </div>
 
-      <div class="card-group my-3">
-        <div class="card mx-3">
-          <img src="/img/card-1.png.jpeg" class="img-fluid" alt="" ">
-          <div class="card-body">
-            <h5 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título do cartão</font></font></h5>
-            <p class="card-text"><small class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Última atualização há 3 minutos</font></font></small></p>
-          </div>
-        </div>
-        <div class="card mx-3">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: limite de imagem" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-          <div class="card-body">
-            <h5 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título do cartão</font></font></h5>
-            <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Este cartão tem texto de apoio abaixo como uma introdução natural para conteúdo adicional.</font></font></p>
-            <p class="card-text"><small class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Última atualização há 3 minutos</font></font></small></p>
-          </div>
-        </div>
-        <div class="card mx-3">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: limite de imagem" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
-          <div class="card-body">
-            <h5 class="card-title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título do cartão</font></font></h5>
-            <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Este é um cartão mais amplo com texto de apoio abaixo como uma entrada natural para conteúdo adicional. </font><font style="vertical-align: inherit;">Este cartão tem um conteúdo ainda mais longo do que o primeiro para mostrar essa ação de altura igual.</font></font></p>
-            <p class="card-text"><small class="text-body-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Última atualização há 3 minutos</font></font></small></p>
-          </div>
+      <div class="card mx-3" >
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: limite de imagem" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Algum texto de exemplo rápido para criar no título do cartão e compor a maior parte do conteúdo do cartão.</font></font></p>
         </div>
       </div>
+
+      <div class="card mx-3" >
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: limite de imagem" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Algum texto de exemplo rápido para criar no título do cartão e compor a maior parte do conteúdo do cartão.</font></font></p>
+        </div>
+      </div>
+
+      <div class="card mx-3" >
+        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Espaço reservado: limite de imagem" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <div class="card-body">
+          <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Algum texto de exemplo rápido para criar no título do cartão e compor a maior parte do conteúdo do cartão.</font></font></p>
+        </div>
+      </div>
+  </div>
+    <!-- End Cards -->
+
+    <div class="demonstrativo text-center">
+      <div>
+        <h2>Books</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Illo eos modi sit! Consequuntur unde qui nemo at quisquam 
+          voluptas dolor? Reprehenderit officiis dolores vel sunt rem rerum
+          debitis ab impedit?
+        </p>
+      </div>
+
+      <div>
+        <h2>Books</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Illo eos modi sit! Consequuntur unde qui nemo at quisquam 
+          voluptas dolor? Reprehenderit officiis dolores vel sunt rem rerum
+          debitis ab impedit?
+        </p>
+      </div>
+
+      <div>
+        <h2>Books</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Illo eos modi sit! Consequuntur unde qui nemo at quisquam 
+          voluptas dolor? Reprehenderit officiis dolores vel sunt rem rerum
+          debitis ab impedit?
+        </p>
+      </div>
+
+      <div>
+        <h2>Books</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Illo eos modi sit! Consequuntur unde qui nemo at quisquam 
+          voluptas dolor? Reprehenderit officiis dolores vel sunt rem rerum
+          debitis ab impedit?
+        </p>
+      </div>
+  </div>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

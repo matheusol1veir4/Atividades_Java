@@ -1,5 +1,7 @@
-nav ul li a{
+nav .menu a{
     font-weight: bold!important;
+    color: black;
+    text-decoration: none;
 }
 
 nav ul li a:hover{
@@ -11,14 +13,9 @@ nav ul li a:hover{
     color: #FFF;
 }
 
-.oferecemos i{
-    color: blueviolet;
-}
 
 .card{
     height: 500px;
     margin:  auto;
 }
-.card img{
-    height: 100%;
-}
+
